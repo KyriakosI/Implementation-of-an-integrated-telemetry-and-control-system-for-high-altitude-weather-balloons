@@ -10,7 +10,8 @@ Sensors/Modules used:
 - BMP180
 - GPS NEO-6M
 - NRF24L01+ x2
-
+- Capacitor of 100μF x2
+- Resistor of 10kOhm
 
 
 Arduino Uno Circuit:
