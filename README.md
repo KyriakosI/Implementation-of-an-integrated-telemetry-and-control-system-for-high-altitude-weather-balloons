@@ -1,7 +1,15 @@
-This project uses an Arduino Uno with a BMP180, GPS module NEO-6M and NRF24L01+. A RPi5. An ESP32 with a NRF24L01+ connected on the RPi5.
+This study focused on the design and implementation of an integrated telemetry and control system for high altitude weather balloons, using Arduino, Raspberry Pi platforms, and the wireless communication protocol NRF. The goal of the project was to develop a specialized system capable of measuring and transmitting meteorological monitoring data from balloons operating at altitudes much higher than usual. Using the combined use of Arduino, Raspberry Pi platforms and the NRF24L01 wireless protocol, the system enables the collection, control, and processing of meteorological data remotely. A user-friendly graphical interface was also created which displays the data, generates graphs of the data and time/day and real-time balloon location and path tracking. 
 
-Arduino Uno should be able to collect data such as temperature, atmospheric pressure, humidity, gps location(latitude and longitude), altitude and speed. Uno transmits these data via NRF24L01 and ESP32 receives them. RPi5 gets the data via Serial from the ESP32, displays the data, 
-creates plots and draws the route on a google map template.
+Hardware used:
+- Arduino Uno
+- ESP32
+- Raspberry Pi 5
+
+Sensors/Modules used:
+- DHT11
+- BMP180
+- GPS NEO-6M
+- NRF24L01+ x2
 
 
 Arduino Uno Circuit:
