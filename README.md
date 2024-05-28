@@ -12,6 +12,7 @@ Sensors/Modules used:
 - NRF24L01+ x2
 
 
+
 Arduino Uno Circuit:
 ![Uno](https://i.imgur.com/CL96Pqt.png)
 
