@@ -5,7 +5,9 @@ creates plots and draws the route on a google map template.
 
 
 Arduino Uno Circuit:
-https://prnt.sc/OVYhpckcuqvE
+![Uno](https://i.imgur.com/CL96Pqt.png)
 
 ESP32 Circuit: 
-https://prnt.sc/fU_qDYII0r8Y
+![ESP32](https://i.imgur.com/pYLStwW.png)
+
+
